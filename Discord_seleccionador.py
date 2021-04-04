@@ -27,8 +27,8 @@ async def on_ready():
 async def on_message(message):
     channel = message.channel
     message_to_send={
-    'ZU': ["chufran","didi","jesus","sarasa","papa noel"],
-    'QH': ["judas","aseda","teclado","razer","aguante el cs"]
+    'TOMAR': ["TRAGO","BIRRA","TRAGO FUERTE","5° trago de la carta","elige el otro"],
+    'QUE HACEMOS': ["IR A COMER","IR AL CINE","TOMAR ALGO","COCINAR","VER SERIE"]
     }.get(str(message.content))
     if message_to_send:
         await channel.send(random.choice(message_to_send))
