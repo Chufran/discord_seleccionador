@@ -1,0 +1,2 @@
+# discord_seleccionador
+Discord_bot seleccionador
